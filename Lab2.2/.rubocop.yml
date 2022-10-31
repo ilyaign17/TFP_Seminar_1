@@ -1,0 +1,13 @@
+Metrics/AbcSize:
+  Enabled: false
+Layout/LineLength:
+  Max: 80
+Metrics/MethodLength:
+  Max: 15
+Style/NegatedIf:
+  Enabled: false
+AllCops:
+  NewCops: enable
+Metrics/BlockLength:
+  IgnoredMethods:
+    - RSpec.describe
